@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact me</title>
+  </head>
+  <body>
+    <h2>Contact me</h2>
+    <p>How to contact me :</p>
+    <p>  - Visit my <a href="https://www.linkedin.com/in/hamza-ibrahim-hafdi-9b923933/">LinkedIn</a> profile</p>
+    <p>  - My email adress : <em>hamzahafdi89@gmail.com</em></p>
+    <p>  - My phone number : <em>+212 (0) 66666677</em></p>
+<hr>
+
+    <form action="mailto:hamzahafdi89@gmail.com" method="post" enctype="text/plain">
+      <table>
+        <tr>
+          <td>
+            <label for="name"> Your name : </label>
+          </td>
+          <td>
+            <input type="text" name="name" id="name">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="email"> Enter your email : </label>
+          </td>
+          <td>
+            <input  type="email" name="email" id="email" required>
+          </td>
+        </tr>
+      </table>
+      <label for="message"> Your message : </label>
+      <br>
+      <textarea name="message" rows="8" cols="40"></textarea>
+      <br>
+      <input type="submit" value="send">
+    </form>
+  </body>
+</html>
